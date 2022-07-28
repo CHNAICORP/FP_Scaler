@@ -12,6 +12,7 @@ def rand(a, b):
     return (b - a) * random.random() + a
 
 
+# 生成矩阵
 def make_matrix(m, n, fill=0.0):
     mat = []
     for i in range(m):
